@@ -1,23 +1,36 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <meta name="Description" content="img标签的使用">
+    <meta name="description" content="img标签的使用">
     <title>HTML标签</title>
 </head>
 
 <body>
+    <!-- 
+	
+		图形标签<img>
+			属性：src:图片的地址
+				width:长度
+				height:高度
+				border:边框
+				algin:对齐方式
+					注意：top middle bottom 指相邻的文字相对于图片的位置
+				alt:图片的文字说明
+	
+	 -->
     让网页有图有真相，还真不赖，img就是处理图像的标签，我现在懂了!
     <hr />
     <img src="w3c.png" title="w3cschool" />
     <img src="w3c.png" title="w3cschool" width="115" height="80" />
     <hr />
-    <p>图像位置<img src="w3c.png" align="top" width="115" height="80" />顶部</p>
-    <p>图像位置<img src="w3c.png" align="middle" width="115" height="80" />中间</p>
-    <p>图像位置<img src="w3c.png" align="bottom" width="115" height="80" />底部</p>
-    <p>为了显示图加载失败的效果，我故意改掉src的值，在项目运行时，可能会因为某些原因导致图片加载失败</p>
-	<img src="oo.png" title="w3cschool" alt="这个图片由于网络问题无法加载" />
+    <p>文字位置<img src="w3c.png" align="top" width="115" height="80" />顶部</p>
+    <p>文字位置<img src="w3c.png" align="middle" width="115" height="80" />中间</p>
+    <p>文字位置<img src="w3c.png" align="bottom" width="115" height="80" />底部</p>
+    <!-- 为了显示图加载失败的效果，我故意改掉src的值，在项目运行时，可能会因为某些原因导致图片加载失败 -->
+	<img src="https://news-bos.cdn.bcebos.com/mvideo/log-news.png" title="百度logo"  width="300" alt="这个图片由于网络问题无法加载" border="10"/>
 </body>
 
 </html>
